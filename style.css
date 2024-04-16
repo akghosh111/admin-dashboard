@@ -65,11 +65,11 @@ body{
     flex-direction: column;
 }
 
-.navbar{
+.navbar, .welcome, .left{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 10px 20px;
+    margin: 2px 20px;
 }
 
 .form-input{
@@ -85,9 +85,6 @@ body{
     margin: 0 20px;
 }
 
-.welcome{
-
-}
 
 .content{
     background-color: #d4d4d4;
