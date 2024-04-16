@@ -1,6 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    font-family: Roboto, sans-serif;
 }
 
 .grid{
@@ -11,6 +18,33 @@
 .sidebar{
     background-color: #0ea5e9;
     height: 100vh;
+    color: white;
+}
+
+.logo-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 40px 40px;
+}
+
+.logo-text h1{
+    font-size: 25px;
+}
+
+.icon-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 40px;
+}
+
+.icon-text p{
+    margin-left: 10px;
+    font-size: 14px;
+    
 }
 
 .main{
